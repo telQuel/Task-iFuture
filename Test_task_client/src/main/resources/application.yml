@@ -1,0 +1,10 @@
+client:
+  url: http://localhost:8080/api/balance/
+  threadCount: 10
+  readQuota: 7
+  writeQuota: 5
+  readIdList: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+  writeIdList: 1, 2, 4, 5, 6, 10, 11
+
+server:
+  port: 8082
